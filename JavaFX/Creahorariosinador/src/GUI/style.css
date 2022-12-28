@@ -1,0 +1,51 @@
+
+@font-face {
+    /*font-family: 'Source Code Pro';*/
+    src: url('/GUI/resources/SourceCodePro-Regular.ttf');
+}
+
+.standar_button{
+    -fx-background-color: #A074DB;
+}
+
+.standar_button:hover{
+    -fx-background-color: #583E79;
+}
+
+.standar_toggle_button{
+    -fx-background-color: #A074DB;
+}
+
+.standar_toggle_button:selected{
+    -fx-background-color: #583E79;
+}
+
+.rounded_button{
+    -fx-border-color: black;
+    -fx-border-radius: 2;
+}
+
+.hora_toggle_button{
+    -fx-background-color: #E0E0E0;
+    -fx-background-radius: 7;
+    -fx-border-color: black;
+    -fx-border-radius: 7;
+}
+
+.hora_toggle_button:selected{
+    -fx-background-color: #FFFF00;
+}
+
+.main_panel{
+    -fx-background-color: #3C3C3C;
+}
+
+.labels{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+.result_panel{
+    -fx-font-family: 'Source Code Pro';
+    -fx-font-size: 15;
+}

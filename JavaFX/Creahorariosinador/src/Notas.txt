@@ -1,0 +1,23 @@
+
+var next = new Button();
+next.setText("Button " + btn_counter++);
+buttons_vbox.getChildren().add(next);
+
+
+@FXML
+    private void action_btn_add(ActionEvent event) {
+        var next_hbox = new HBox();
+        next_hbox.setPrefSize(9999, 9999);
+        var next_button = new ToggleButton();
+        next_button.setPrefSize(9999, 9999);
+        next_button.setText("BOTON");
+        next_button.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                sayHi();
+            }
+        });
+        next_hbox.getChildren().add(next_button);
+        horas_vbox.getChildren().add(next_hbox);
+        
+    }
