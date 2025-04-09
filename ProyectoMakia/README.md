@@ -6,4 +6,7 @@ Drag files onto 'auto' to compress uncompressed files, or decompress them if the
 
 ![](https://github.com/DanielFlotte/DemonstrationSamples/blob/main/ProyectoMakia/SampleScreenshots/before_drag.png)
 ![](https://github.com/DanielFlotte/DemonstrationSamples/blob/main/ProyectoMakia/SampleScreenshots/dragging.png)
+
+Compress tab:
+
 ![](https://github.com/DanielFlotte/DemonstrationSamples/blob/main/ProyectoMakia/SampleScreenshots/compress_tab.png)
