@@ -1,0 +1,37 @@
+
+QWidget {
+    background-color: lightblue;
+}
+
+#drag_and_drop_frame {
+    border: 4px dashed grey;
+    border-radius: 20px;
+    /*background-color: white;*/
+}
+
+QLabel#drag_and_drop_label {
+    border: none;
+    color: grey;
+    font-size: 28px;
+}
+QLabel#drag_and_drop_label_dragging {
+    border: none;
+    color: #404040;
+    font-size: 28px;
+}
+#or_label {
+    border: none;
+    color: grey;
+}
+
+QLineEdit#password_lineedit {
+    background-color: #E3F0F5;
+}
+
+QLineEdit#repeat_lineedit {
+    background-color: #E3F0F5;
+}
+
+QLineEdit#repeat_lineedit_whenwrong {
+    background-color: #FAECED;
+}

@@ -1,0 +1,17 @@
+
+Solo 7z puede cifrar nombres de archivos?
+
+Para listar las fuentes:
+ void listResources(const QString &path = ":/") {
+     QDir dir(path);
+
+     // Lista todos los archivos en el directorio
+     foreach (const QString &file, dir.entryList(QDir::Files)) {
+         qDebug() << "File:" << path + file;
+     }
+
+     // Lista los subdirectorios y explóralos recursivamente
+     foreach (const QString &folder, dir.entryList(QDir::Dirs | QDir::NoDotAndDotDot)) {
+         listResources(path + folder + "/");
+     }
+ }
